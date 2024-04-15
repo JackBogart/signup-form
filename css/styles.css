@@ -7,6 +7,9 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
         'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .italics {
@@ -16,23 +19,58 @@ body {
 .form-container {
     height: 80vh;
     display: flex;
-    gap: 5%;
 }
 
 .form-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.form-header,
+.form-inputs,
+.form-footer {
+    padding-left: 3vw;
+}
+
+.form-header {
+    margin-bottom: 2.5rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    background-color: white;
+    box-shadow: 1px 4px 4px hsla(0, 0%, 0%, 0.122);
+    padding-bottom: 2rem;
+}
+
+.form-footer {
+    margin-top: 2rem;
+}
+
+.form-title {
+    width: 100%;
 }
 
 .form-row {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-row > label {
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+    color: hsl(0, 0%, 33%);
+    margin-bottom: 0.2rem;
 }
 
 .sidebar {
     width: 100%;
+    height: 100vh;
     background: url(../images/starry-mountains.jpg) no-repeat center/cover;
 }
 
@@ -40,13 +78,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15vh;
-    height: 20%;
+    margin-top: 20vh;
+    height: 15%;
     background-color: rgba(0, 0, 0, 0.32);
 
     font-family: Norse-Bold;
     color: white;
-    font-size: 6.5em;
+    font-size: 4em;
 }
 
 .logo-image {

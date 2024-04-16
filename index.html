@@ -6,6 +6,7 @@
         <title>Document</title>
         <link rel="stylesheet" href="./css/normalize.css" />
         <link rel="stylesheet" href="./css/styles.css" />
+        <script src="./js/script.js" defer></script>
     </head>
     <body>
         <div class="form-container">
@@ -13,6 +14,10 @@
                 <div class="sidebar-logo">
                     <img src="./images/odin-lined.png" alt="odin logo outline" class="logo-image" />
                     ODIN
+                </div>
+                <div class="photo-credit">
+                    Photo by <a href="https://unsplash.com/@vorosbenisop">Benjamin Voros</a> on
+                    <a href="unsplash.com">Unsplash</a>
                 </div>
             </div>
             <div class="form-section">
@@ -23,7 +28,7 @@
                     </p>
                     <p>You <span class="italics">know</span> you want to.</p>
                 </div>
-                <form action="post">
+                <form action="#" onsubmit="handleSubmit(event)">
                     <div class="form-inputs">
                         <p class="form-title">Let's do this!</p>
 
@@ -49,8 +54,8 @@
                             <span></span>
                         </div>
                         <div class="form-row">
-                            <label for="password">CONFIRM PASSWORD</label>
-                            <input type="password" id="password" name="password" required />
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required />
                         </div>
                     </div>
                     <div class="form-footer">

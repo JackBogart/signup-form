@@ -14,6 +14,10 @@ body {
     background-color: hsl(0, 0%, 98%);
     font-size: 1.5rem;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 .italics {
@@ -21,7 +25,7 @@ body {
 }
 
 .form-container {
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 
@@ -100,7 +104,11 @@ body {
 }
 
 .sidebar {
-    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
     background: url(../images/starry-mountains.jpg) no-repeat center/cover;
 }
 
@@ -108,8 +116,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 22vh;
+    margin-top: 22%;
     height: 15%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.32);
 
     font-family: Norse-Bold;
@@ -138,4 +147,14 @@ body {
 .login {
     color: var(--color-tone);
     text-decoration: none;
+}
+
+.photo-credit {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.photo-credit > a {
+    color: white;
 }

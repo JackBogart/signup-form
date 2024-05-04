@@ -9,61 +9,59 @@
         <script src="./js/script.js" defer></script>
     </head>
     <body>
-        <div class="form-container">
-            <div class="sidebar">
-                <div class="sidebar-logo">
-                    <img src="./images/odin-lined.png" alt="odin logo outline" class="logo-image" />
-                    ODIN
-                </div>
-                <div class="photo-credit">
-                    Photo by <a href="https://unsplash.com/@vorosbenisop">Benjamin Voros</a> on
-                    <a href="https://unsplash.com/">Unsplash</a>
-                </div>
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <img src="./images/odin-lined.png" alt="odin logo outline" class="logo-image" />
+                ODIN
             </div>
-            <div class="form-section">
-                <div class="form-header">
-                    <p>
-                        This is not a real online service! You know you need something like this in your life to help
-                        you realize your deepest dreams. Sign up <span class="italics">now</span> to get started.
-                    </p>
-                    <p>You <span class="italics">know</span> you want to.</p>
-                </div>
-                <form action="#" onsubmit="handleSubmit(event)">
-                    <div class="form-inputs">
-                        <p class="form-title">Let's do this!</p>
+            <div class="photo-credit">
+                Photo by <a href="https://unsplash.com/@vorosbenisop">Benjamin Voros</a> on
+                <a href="https://unsplash.com/">Unsplash</a>
+            </div>
+        </div>
+        <div class="form-section">
+            <div class="form-header">
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. Sign up <span class="italics">now</span> to get started.
+                </p>
+                <p>You <span class="italics">know</span> you want to.</p>
+            </div>
+            <form action="#" onsubmit="handleSubmit(event)">
+                <div class="form-inputs">
+                    <p class="form-title">Let's do this!</p>
 
-                        <div class="form-row">
-                            <label for="fname">FIRST NAME</label>
-                            <input type="text" id="fname" name="fname" required />
-                        </div>
-                        <div class="form-row">
-                            <label for="lname">LAST NAME</label>
-                            <input type="text" id="lname" name="lname" required />
-                        </div>
-                        <div class="form-row">
-                            <label for="mail">EMAIL</label>
-                            <input type="email" id="mail" name="email" required />
-                        </div>
-                        <div class="form-row">
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone" required />
-                        </div>
-                        <div class="form-row">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password" required />
-                            <span></span>
-                        </div>
-                        <div class="form-row">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-password" name="confirm-password" required />
-                        </div>
+                    <div class="form-row">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname" required />
                     </div>
-                    <div class="form-footer">
-                        <button type="submit" class="submit-button">Create Account</button>
-                        <p>Already have an account? <a href="#" class="login">Log in</a></p>
+                    <div class="form-row">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname" required />
                     </div>
-                </form>
-            </div>
+                    <div class="form-row">
+                        <label for="mail">EMAIL</label>
+                        <input type="email" id="mail" name="email" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" required />
+                    </div>
+                    <div class="form-row">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required />
+                        <span></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required />
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <button type="submit" class="submit-button">Create Account</button>
+                    <p>Already have an account? <a href="#" class="login">Log in</a></p>
+                </div>
+            </form>
         </div>
     </body>
 </html>

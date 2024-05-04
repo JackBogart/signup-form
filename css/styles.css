@@ -29,6 +29,7 @@ body {
 
 .form-section {
     display: flex;
+    flex: 5;
     flex-direction: column;
     justify-content: center;
 }
@@ -106,7 +107,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    flex: 3;
     background: url(../images/starry-mountains.jpg) no-repeat center/cover;
 }
 
